@@ -1,5 +1,5 @@
-body {
-    font-family: 'DM Sans', sans-serif;
+  body {
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 6rem;
   }
   
@@ -12,6 +12,40 @@ body {
     font-weight: 700;
   }
   
+  @keyframes up {
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  /* Then, every single word gets animated up */
+  .first-animate {
+    animation: up 0.8s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-800%);
+  }
+
+  .animate {
+    animation: up 0.8s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(900%);
+  }
+  
+  /* Delay for staggering effect */
+  .medium-header{
+    animation-delay: 1.4s;
+  }
+  .small-header, .paragraph{
+    animation-delay: 1.6s;
+  }
+  .location{
+    animation-delay: 1.8s;
+  }
+
   .highlight-1 { 
     background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #b7ffb4 50%); 
   }
@@ -65,6 +99,7 @@ body {
   }
 
   .large-header{
+    font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     font-size: 5vw;
   }
