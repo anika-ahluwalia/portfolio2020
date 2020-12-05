@@ -1,7 +1,8 @@
-  @import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
   
   body {
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 6rem;
   }
   
@@ -92,6 +93,8 @@
   .home-wrapper{
     padding-left: 7vw;
     padding-right: 7vw;
+    /* background-color: #fff7e8; */
+    /* height: 700px; */
   }
 
   .text-wrapper{
@@ -158,4 +161,8 @@
 
   .description-wrapper{
     margin-right: 70px;
+  }
+
+  .navigation{
+    background-color: white;
   }
