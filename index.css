@@ -110,12 +110,14 @@
   }
 
   .medium-header{
+    font-family: 'Quicksand', sans-serif;
     font-weight: 350;
     font-size: 3vw;
     margin-bottom: 30px;
   }
 
   .small-header{
+    font-family: 'Quicksand', sans-serif;
     font-weight: 200;
     font-size: 2.2vw;
     margin-bottom: 30px;
@@ -165,4 +167,8 @@
 
   .navigation{
     background-color: white;
+  }
+
+  p{
+    font-family: 'Quicksand', sans-serif;
   }
