@@ -258,11 +258,6 @@
     margin-bottom: 120px;
   }
 
-  .img-wrapper{
-    justify-content: center;
-    align-items: center;
-  }
-
   .button{
     font-family: 'Raleway', sans-serif;
     padding: 12px;
@@ -300,4 +295,12 @@
     margin-bottom: 30px;
     margin-top: 5px;
     color: #5BA092;
+  }
+
+  .work-wrapper{
+    max-width: 100vw;
+  }
+
+  .wrapper{
+    max-width: 100vw;
   }
