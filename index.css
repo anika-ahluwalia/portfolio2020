@@ -114,13 +114,15 @@
   }
 
   .work-header{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-family: 'Bitter', serif;
+    font-weight: 700;
     font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
   }
 
   .medium-header{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bitter', serif;
     font-weight: 450;
     font-size: 40px;
     margin-bottom: 30px;
@@ -264,4 +266,5 @@
     background-color: #5BA092;
     border-radius: 4px;
     font-size: 20px;
+    font-weight: 100px;
   }
