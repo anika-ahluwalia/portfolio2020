@@ -12,6 +12,7 @@
   }
   
   h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
   }
   
@@ -52,23 +53,17 @@
     animation-delay: 1.8s;
   }
 
-  .highlight-1 { 
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #b7ffb4 50%); 
+  .highlight { 
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #e2ece8 50%); 
   }
-  .highlight-15 { 
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #b7ffb4 50%); 
-  }
-  .highlight-2 { 
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #b7ffb4 50%); 
-  }
-  
+
   .heading {
     margin: 2rem 4rem 2rem 4rem;
     text-align: center;
   }
   
   .section {
-    margin: 2rem 4rem 2rem 4rem;
+    margin: 3rem 7rem 3rem 7rem;
   }
   
   .statement {
@@ -137,6 +132,7 @@
   }
 
   .accent{
+    font-family: 'Raleway', sans-serif;
     color: #5BA092;
   }
 
@@ -201,40 +197,6 @@
 
   p{
     font-family: 'Raleway', sans-serif;
-  }
-
-
-  .project-card {
-    background-color: white;
-    display: block;
-    width: 360px;
-    min-height: 90px;
-    border: 3px solid #5BA092;
-    border-radius: 8px;
-    padding: 15px;
-    margin: 20px;
-    box-shadow: 10px -10px 0 -3px white, 10px -10px #3a6d63;
-    transition: box-shadow 1s, top 1s, left 1s;
-    position: relative;
-    top: 0;
-    left: 0;
-    cursor: pointer;
-  }
-  
-  .project-card:hover {
-    background-color: #c4ebe2;
-    top: -10px;
-    left: 10px;
-    box-shadow: 0 0 0 -3px white, 0 0 0 0 #3a6d63;
-  }
-
-  .date{
-    float: right;
-  }
-
-  .project-name{
-    color: #3a6d63;
-    font-size: 22px;
   }
 
   .project-img{
@@ -312,3 +274,10 @@
     justify-content: center;
     align-items: center;
   } 
+
+  .project-head{
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin: 30px;
+    width: fit-content;
+  }
