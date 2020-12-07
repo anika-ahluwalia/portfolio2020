@@ -57,6 +57,10 @@
     animation-delay: 1.8s;
   }
 
+  .icons{
+    animation-delay: 2.0s;
+  }
+
   .highlight { 
     background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #e2ece8 50%); 
   }
@@ -109,7 +113,7 @@
   .large-header{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 66px;
   }
 
   .work-header{
@@ -372,6 +376,42 @@
 .problem1{
   border-right: 1px solid #5BA092;
   border-bottom: none;
+}
+
+.icon{
+  font-size: 40px;
+  color:#5BA092;
+  margin-right: 30px;
+}
+
+.icon:hover{
+  color:#37695f;
+}
+
+.footer{
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.footer-text, .footer-icon{
+  color:#5BA092;
+  margin-right: 30px;
+}
+
+.footer-text{
+  font-size: 12px;
+}
+
+.footer-icon{
+  font-size: 20px;
+}
+
+.footer-icon:hover{
+  color:#37695f;
 }
 
 @media (max-width: 1000px) {
