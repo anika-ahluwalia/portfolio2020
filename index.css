@@ -94,20 +94,20 @@
   }
   
   .home-img{
-    width: 40vw;
+    width: 560px;
   }
+
+
   .home-wrapper{
     padding-left: 7vw;
     padding-right: 7vw;
-    /* background-color: #fff7e8; */
-    /* height: 700px; */
   }
 
   .text-wrapper{
     font-family: 'Raleway', sans-serif;
     padding-left: 30px;
     margin-top: 75px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
   }
 
   .large-header{
@@ -390,6 +390,7 @@
 
 .footer{
   margin-top: 20px;
+  margin-bottom: 30px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   align-items: center;
@@ -414,6 +415,12 @@
   color:#37695f;
 }
 
+@media (max-width: 1300px){
+  .home-img{
+    width: 500px;
+  }
+}
+
 @media (max-width: 1000px) {
   .problem1{
       border-right: none;
@@ -424,5 +431,9 @@
 
   .oph-img{
     margin-top: 20px;
+  }
+
+  .home-img{
+    width: 90vw;
   }
 }
