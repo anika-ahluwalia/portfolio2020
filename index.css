@@ -6,6 +6,10 @@
     margin-bottom: 6rem;
   }
   
+  div{
+    font-family: 'Raleway', sans-serif;
+  }
+
   a {
     color: #858585;
     text-decoration: none;
@@ -281,3 +285,49 @@
     margin: 30px;
     width: fit-content;
   }
+
+
+.critique {
+  margin: 1rem;
+}
+
+.critique-img, .wireframe-img, .prototype-img, .style-guide-img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem;
+}
+
+.prototype, .wireframe {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.point{
+  padding: 10px;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid #5BA092;
+  justify-content: center;
+  align-items: center;
+}
+
+.point-last{
+  padding: 10px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: none;
+}
+
+
+.critiques{
+  border: 1px solid #5BA092;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contained{
+  margin-bottom: 30px;
+}
