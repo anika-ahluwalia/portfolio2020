@@ -225,11 +225,13 @@
     font-size: 18px;
   }
 
+  .project-header-text-wrap{
+    margin-top: 60px;
+  }
+
   .project-text{
     font-family: 'Raleway', sans-serif;
-    padding-left: 80px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-left: 70px;
   }
 
   .button{
@@ -281,22 +283,29 @@
     font-weight: 100;
   }
 
-  .project-header{
+  /* .project-header{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 55px;
     margin-top: 30px;
     text-align: center;
+  } */
+
+  .project-header{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .project-tech{
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Raleway', sans-serif;
     font-weight: 450;
     font-size: 27px;
-    margin-bottom: 30px;
-    margin-top: 5px;
-    color: #5BA092;
+    margin-bottom: 10px;
+    /* margin: 0rem 3rem 0rem 3rem; */
   }
 
   .work-wrapper{
@@ -330,6 +339,11 @@
   max-width: 100%;
   height: auto;
   margin: 1rem;
+}
+
+.work-project-text{
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .prototype, .wireframe {
@@ -376,10 +390,6 @@
   border-radius: 15px;
   padding: 30px;
   margin-bottom: 40px;
-}
-
-.project-tech{
-  margin: 0rem 3rem 0rem 3rem;
 }
 
 .problem1{
@@ -458,17 +468,14 @@
   }
 
   .project-header{
-    margin-left: 8%;
-    margin-right: 8%;
+    /* margin: 3rem 3rem 3rem 3rem; */
+    /* margin-left: 8%;
+    margin-right: 8%; */
     font-size: 46px;
   }
 
   .section{
     margin: 3rem 3rem 3rem 3rem;
-  }
-
-  .project-text{
-    margin-right: 6%;
   }
 
   .large-header{
@@ -504,6 +511,15 @@
     margin-bottom: 60px;
   }
 
+  .project-header-text-wrap{
+    margin-top: 10px;
+  }
+
+  .work-project-text{
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
   .project-img{
     width: 75vw;
   }
@@ -513,7 +529,7 @@
   }
 
   .project-text{
-    margin-bottom: 30px;
+    margin: 3rem 3rem 3rem 3rem;
   }
 
   /* .project, .project-alt{
