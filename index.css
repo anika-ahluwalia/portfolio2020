@@ -33,7 +33,7 @@
     animation-delay: .5s;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    transform: translateY(-300%);
+    transform: translateY(-800%);
   }
 
   .animate {
@@ -462,6 +462,12 @@
     padding-right: 1%
   }
 
+  .project-header{
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 46px;
+  }
+
   .section{
     margin: 3rem 3rem 3rem 3rem;
   }
@@ -478,9 +484,22 @@
     font-size: 35px;
   }
 
+  .small-header{
+    font-size: 20px;
+  }
+
+  .map-icon{
+    margin-top: -2px;
+  }
+
   .my-img{
     margin-top: 65px;
     width: 80vw;
+  }
+
+  .oph-button{
+    width: 150px;
+    margin-bottom: 20px;
   }
 
   .img-wrapper{
