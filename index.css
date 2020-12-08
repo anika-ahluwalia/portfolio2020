@@ -344,6 +344,7 @@
 .work-project-text{
   margin-top: 120px;
   margin-bottom: 120px;
+  margin-left: 10%;
 }
 
 .prototype, .wireframe {
@@ -454,6 +455,10 @@
 
 @media (max-width: 1000px) {
 
+  .project-header-text-wrap{
+    border-bottom: 0.75px solid #5BA092;
+  }
+
   .oph-img{
     margin-top: 20px;
   }
@@ -499,11 +504,6 @@
     width: 80vw;
   }
 
-  .oph-button{
-    width: 150px;
-    margin-bottom: 20px;
-  }
-
   .img-wrapper{
     margin-left: 20%;
     margin-right: 20%;
@@ -516,7 +516,7 @@
   }
 
   .work-project-text{
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 10px;
   }
 
@@ -538,6 +538,11 @@
 }
 
 @media (max-width: 570px) {
+  .oph-button{
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
   .nav-item{
     margin-left: 12%;
   }
