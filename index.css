@@ -162,7 +162,8 @@
 
   .nav-item{
     font-family: 'Raleway', sans-serif;
-    margin-left: 50px;
+    margin-left: 0px;
+    margin-right: 65px;
     font-size: 20px;
     margin-top: 15px;
   }
@@ -170,6 +171,7 @@
   .nav-link{
     color: #5BA092;
     transition: all .2s ease-in-out;
+    width: 60px;
   }
 
   .nav-link:hover, .nav-selected, .return:hover{
