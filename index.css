@@ -382,11 +382,6 @@
   margin: 0rem 3rem 0rem 3rem;
 }
 
-.problem2{
-  border-right: 1px solid #5BA092;
-  border-bottom: none;
-}
-
 .problem1{
   border-right: none;
   padding-bottom: 10px;
@@ -448,12 +443,6 @@
 }
 
 @media (max-width: 1000px) {
-  .problem1{
-      border-right: none;
-      padding-bottom: 10px;
-      margin-bottom: 15px;
-      border-bottom: 1px solid #5BA092;
-  }
 
   .oph-img{
     margin-top: 20px;
