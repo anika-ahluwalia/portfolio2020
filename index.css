@@ -194,6 +194,7 @@
   .my-img{
     width: 400px;
     border-radius: 400px;
+    margin-bottom: 75px;
   }
 
   .description-wrapper{
@@ -376,6 +377,10 @@
   margin-bottom: 40px;
 }
 
+.project-tech{
+  margin: 0rem 3rem 0rem 3rem;
+}
+
 .problem1{
   border-right: 1px solid #5BA092;
   border-bottom: none;
@@ -451,7 +456,47 @@
   }
 
   .project-explanation-wrapper{
-    padding-left: 2%;
-    padding-right: 2%
+    padding-left: 1%;
+    padding-right: 1%
   }
+
+  .section{
+    margin: 3rem 3rem 3rem 3rem;
+  }
+
+  .project-text{
+    margin-right: 6%;
+  }
+
+  .large-header{
+    font-size: 50px;
+  }
+
+  .medium-header{
+    font-size: 35px;
+  }
+
+  .my-img{
+    margin-top: 65px;
+    width: 80vw;
+  }
+
+  .img-wrapper{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2px;
+    margin-bottom: 60px;
+  }
+
+  .project-img{
+    width: 75vw;
+  }
+
+  .work-wrapper, .wrapper{
+    min-width: 100vw;
+  }
+
+  /* .project, .project-alt{
+    min-width: 120vw;
+  } */
 }
