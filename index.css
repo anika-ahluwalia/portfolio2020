@@ -532,6 +532,9 @@
     margin: 3rem 3rem 3rem 3rem;
   }
 
+  .img-wrapper{
+    margin-bottom: 20px;
+  }
   /* .project, .project-alt{
     min-width: 120vw;
   } */
