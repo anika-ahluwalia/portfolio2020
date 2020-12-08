@@ -502,3 +502,9 @@
     min-width: 120vw;
   } */
 }
+
+@media (max-width: 570px) {
+  .nav-item{
+    margin-right: 20%;
+  }
+}
