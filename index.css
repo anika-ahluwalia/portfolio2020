@@ -102,7 +102,6 @@
   .home-wrapper{
     padding-left: 7vw;
     padding-right: 7vw;
-    height: 100vh;
   }
 
   .text-wrapper{
@@ -383,9 +382,16 @@
   margin: 0rem 3rem 0rem 3rem;
 }
 
-.problem1{
+.problem2{
   border-right: 1px solid #5BA092;
   border-bottom: none;
+}
+
+.problem1{
+  border-right: none;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #5BA092;
 }
 
 .icon{
@@ -515,6 +521,10 @@
 
   .work-wrapper, .wrapper{
     min-width: 100vw;
+  }
+
+  .project-text{
+    margin-bottom: 30px;
   }
 
   /* .project, .project-alt{
